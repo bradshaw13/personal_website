@@ -1,0 +1,53 @@
+.background {
+    height: 100vh;
+    background-image: url("../images/brycenational.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    font-size:1rem;
+    flex-direction: column;
+}
+.testButton {
+    color: #060b26 !important;
+	/* text-transform: uppercase; */
+	background: #ffffff;
+	padding: 20px;
+	border: 4px solid #060b26 !important;
+	border-radius: 50px;
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+    width: 200px;
+    font-size: 24px;
+    opacity: .6;
+   
+
+}
+.testButton:hover {
+    color: #060b26 !important;
+	background: #A9A9A9;
+	border-color: #060b26 !important;
+	transition: all 0.4s ease 0s;
+    cursor: pointer;
+
+}
+.testButton:disabled {
+    cursor: default;
+    opacity: 0.7;
+}
+.home {
+    /* display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    font-size:1rem; */
+    /* background-image: url("../images/brycenational.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+
+}
