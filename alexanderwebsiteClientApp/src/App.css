@@ -7,7 +7,7 @@
   font-family: 'Lato',sans-serif;
 }
 
-.recipes, .portfolio, .travel {
+.recipes, .portfolio {
   display: flex;
   height: 90vh;
   align-items: center;
