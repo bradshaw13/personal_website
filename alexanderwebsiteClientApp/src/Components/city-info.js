@@ -17,8 +17,8 @@ function CityInfo(props) {
           Wikipedia
         </a>
         */}
-        <Link to={'/recipes/'+info.displayName} className='menu-bars'>
-            recipe
+        <Link to={{pathname: '/travel/'+info.city}}>
+            {info.city}
         </Link>
         
       </div>

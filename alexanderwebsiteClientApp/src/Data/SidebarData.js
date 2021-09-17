@@ -1,8 +1,9 @@
 import React from 'react';
 //import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-//import * as IoIcons from 'react-icons/io';
+import * as IoIcons from 'react-icons/io5';
 import * as GiIcons from 'react-icons/gi';
+import * as BsIcons from "react-icons/bs";
 //import * as GrIcons from 'react-icons/gr';
 
 export const SidebarData = [
@@ -21,14 +22,21 @@ export const SidebarData = [
     {
         title: 'Travel',
         path: '/travel',
-        icon: <GiIcons.GiCookingPot/>,
+        icon: <IoIcons.IoAirplaneSharp/>,
         cName: 'nav-text'
     },
     {
-        title: 'Portfolie',
+        title: 'About Me',
+        path: '/aboutme',
+        icon: <BsIcons.BsFillPersonFill/>,
+        cName: 'nav-text'
+    },
+    /*,
+    {
+        title: 'Portfolio',
         path: '/portfolio',
         icon: <AiIcons.AiFillFolder/>,
         cName: 'nav-text'
-    },
+    },*/
 
 ];

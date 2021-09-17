@@ -1,0 +1,20 @@
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 750px;
+    margin-top: 10px;
+}
+
+.aboutMeParagraph {
+    font-size: 22px;
+    display: flex;
+    text-align: left;
+    
+}
+.title {
+    font-size: 50px;
+}

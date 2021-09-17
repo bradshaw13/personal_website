@@ -8,6 +8,7 @@ import ReactMapGL, { Popup,
 import Pins from '../Components/Pins';
 import CITIES from '../Data/cities.json';
 import CityInfo from '../Components/city-info'
+import 'mapbox-gl/dist/mapbox-gl.css';
 import './Travel.css'
 function Travel() {
     const [viewport, setViewport] = useState({
@@ -43,7 +44,7 @@ function Travel() {
       const [popupInfo, setPopupInfo] = useState(null);
       return (
         <div className="travel">
-            <ReactMapGL className='test' {...viewport} width="100vw" height="100vh" onViewportChange={setViewport} mapStyle='mapbox://styles/mapbox/light-v8' mapboxApiAccessToken="pk.eyJ1IjoiYnJhZHNoYXcxMyIsImEiOiJja3Qzc3Y3Y2kxMG50MnVueHdkNXU5cXl4In0.ylJ0aYbRMbN4wkmsA09yUw" >
+            <ReactMapGL {...viewport} width="100vw" height="100vh" onViewportChange={setViewport} mapStyle='mapbox://styles/mapbox/dark-v8' mapboxApiAccessToken="pk.eyJ1IjoiYnJhZHNoYXcxMyIsImEiOiJja3Qzc3Y3Y2kxMG50MnVueHdkNXU5cXl4In0.ylJ0aYbRMbN4wkmsA09yUw" >
                 <Pins data={CITIES} onClick={setPopupInfo}/>
                 
                 {popupInfo && (

@@ -1,0 +1,9 @@
+[
+    {"name":"Flour Tortillas", "origin": "Vengan A Comer", "ingredients": ["4 cups flour", "2 tsp. Salt", "1/4 tsp baking powder", "7 tablespoons Crisco", "1 1/2 cups hot water"], "steps": ["Mix dry ingredients", "Add shortening and blend very, very well by hand", "Add hot water and stir well with fork, as this mixture is hot", "Let cool down for a little until you are able to start kneading it until the bowl is cleaer of all the dough. The more you knead the dough the better. Cover and let stand for 30 minutes of longer if desired.","Make balls about the size of an egg, and then roll out with rolling pin.", "Place on griddle and cook for about 2 minutes on one side, turn to the other side and cook for another minute or so and turn again. This will help the tortilla puff up"]},
+    {"name":"Enchiladas", "ingredients": "meat", "step1": "Do this first","step2": "Do this second","step3": "do this third","step4": "do this fourth"},
+    {"name":"Brisket", "ingredients": "salt and pepper", "step1": "Do this first","step2": "Do this second","step3": "do this third","step4": "do this fourth"},
+    {"name":"Pizza", "ingredients": "cheese", "step1": "Do this first","step2": "Do this second","step3": "do this third","step4": "do this fourth"},
+    {"name":"Sushi", "ingredients": "rice", "step1": "Do this first","step2": "Do this second","step3": "do this third","step4": "do this fourth"}
+
+]
+  

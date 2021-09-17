@@ -1,0 +1,39 @@
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 750px;
+    margin-top: 10px;
+}
+
+.ulListRecipe{
+    list-style: none;
+    width: 60%;
+}
+.listRecipes:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #DAA520;
+}
+.listRecipes {
+    color: black;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.5), 0 0.5rem 1.125rem rgba(75,0,0,0.5);
+    margin-top: 1rem;
+    min-height: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+    position: relative;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.listRecipesLink, listRecipesLink:visited, listRecipesLink:active {
+    color: black;
+    text-decoration: none;
+}
+
