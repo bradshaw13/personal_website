@@ -5,7 +5,6 @@ import {useHistory} from 'react-router-dom';
 
 function Home() {
     const history = useHistory();
-    const handleOnClick = () => history.push('/aboutme');
     return (
         <div>
             <div className="background">
@@ -14,7 +13,7 @@ function Home() {
                 </div>
               
                 <div className='home'>
-                    <button onClick={handleOnClick} className='testButton'>
+                    <button onClick={() => history.push('/aboutme')} className='testButton'>
                         About Me
                     </button>
                 </div>
