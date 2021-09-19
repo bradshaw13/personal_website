@@ -9,7 +9,12 @@ import Pins from '../Components/Pins';
 import CITIES from '../Data/cities.json';
 import CityInfo from '../Components/city-info'
 import 'mapbox-gl/dist/mapbox-gl.css';
+import mapboxgl from 'mapbox-gl';
 import './Travel.css'
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker';
+
+mapboxgl.workerClass = MapboxWorker;
 function Travel() {
     const [viewport, setViewport] = useState({
         longitude: -95.45,
