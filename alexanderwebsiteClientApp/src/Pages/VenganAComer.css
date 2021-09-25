@@ -48,6 +48,11 @@
         font-family: cursive;
 
     }
+    .intro {
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-bottom: 5px;
+    }
 }
 .intro {
     margin-left: 18%;
