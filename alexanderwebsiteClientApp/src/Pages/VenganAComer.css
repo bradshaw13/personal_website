@@ -23,6 +23,20 @@
     font-family: cursive;
 
 }
+.infoRight {
+    margin-left: 75%;
+    font-family: cursive;
+
+}
+.messageParagraph{
+    font-family: cursive;
+
+}
+.intro {
+    width: 80%;
+    margin-bottom: 5px;
+}
+
 @media (min-width: 768px) {
     .mainContent {
         margin: 0 auto;
@@ -49,22 +63,8 @@
 
     }
     .intro {
-        margin-left: 18%;
-        margin-right: 18%;
+        width: 50%;
         margin-bottom: 5px;
     }
 }
-.intro {
-    margin-left: 18%;
-    margin-right: 18%;
-    margin-bottom: 5px;
-}
-.infoRight {
-    margin-left: 75%;
-    font-family: cursive;
 
-}
-.messageParagraph{
-    font-family: cursive;
-
-}
