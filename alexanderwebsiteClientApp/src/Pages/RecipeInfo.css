@@ -4,13 +4,29 @@
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    width: 65%;
+    width: 90%;
     max-width: 750px;
     margin-top: 10px;
     background-color: #fff;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 1rem;
+}
+@media (min-width: 768px) {
+    .recipeInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 65%;
+        max-width: 750px;
+        margin-top: 10px;
+        background-color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 1rem;
+    }
 }
 .test {
     background-color: #fff;
@@ -66,4 +82,12 @@
     padding: 0.125em 0.25em;
     z-index: 1;
    
+}
+.recipeInfoLink, recipeInfoLink:visited {
+    color: black;
+    text-decoration: underline;
+}
+.recipeInfoLink:hover {
+    color: #DAA520;
+    text-decoration: underline;
 }

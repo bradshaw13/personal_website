@@ -1,0 +1,65 @@
+/* this is mobile first */
+.mainContent {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.message {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 0 auto;
+    width: 85%;
+    max-width: 750px;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 2%;
+    font-family: cursive;
+
+}
+@media (min-width: 768px) {
+    .mainContent {
+        margin: 0 auto;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .message {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+        margin: 0 auto;
+        width: 75%;
+        max-width: 750px;
+        box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+        border-radius: 2rem;
+        font-size: 18px;
+        padding: 2%;
+        font-family: cursive;
+
+    }
+}
+.intro {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 5px;
+}
+.infoRight {
+    margin-left: 75%;
+    font-family: cursive;
+
+}
+.messageParagraph{
+    font-family: cursive;
+
+}

@@ -4,11 +4,33 @@
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
     max-width: 750px;
     margin-top: 10px;
+    text-align: center;
 }
 
+@media (min-width: 768px) {
+    .recipes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 60%;
+        max-width: 750px;
+        margin-top: 10px;
+    }
+}
+.storyBehindLink, storyBehindLink:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+.storyBehindLink:hover {
+    color: #DAA520;
+    text-decoration: underline;
+}
 .ulListRecipe{
     list-style: none;
     width: 60%;

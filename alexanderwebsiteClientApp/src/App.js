@@ -9,6 +9,7 @@ import Portfolio from './Pages/Portfolio';
 import TravelByCity from './Pages/TravelByCity';
 import RecipeInfo from './Pages/RecipeInfo';
 import AboutMe from './Pages/AboutMe';
+import VenganAComer from './Pages/VenganAComer';
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
         <Route path='/travel' exact component={Travel}/>
         <Route path='/travel/:city' exact component={TravelByCity}/>
         <Route path='/aboutme' exact component={AboutMe}/>
+        <Route path='/venganacomer' exact component={VenganAComer}/>
         
 
       </Switch>

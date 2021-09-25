@@ -14,8 +14,8 @@ function AboutMe() {
     return (
         <div className='aboutMe'>
             <h1 className="title">AboutMe</h1>
-            <div className="aboutMeParagraph">My name is Alexander Cuellar Bradshaw </div>
-            <h1>{test}</h1>
+            <div className="aboutMeParagraph">My name is Alexander Cuellar Bradshaw my about me page is currently a work in progress!</div>
+            {/* <h1>{test}</h1> */}
         </div>
     )
 }

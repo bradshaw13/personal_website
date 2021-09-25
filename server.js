@@ -4,6 +4,9 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
 
+//var https = require('https');
+//var fs = require('fs');
+
 // Create a new express application named 'app'
 const app = express();
 
@@ -45,6 +48,12 @@ app.get('*', (req, res) => {
         msg: 'Catch All'
     });
 });
-
+/*
+var options = {
+    key: fs.readFileSync('./client-key.pem'),
+    cert: fs.readFileSync('./client-cert.pem')
+  };
+*/
+//https.createServer(options, app).listen(port);
 // Configure our server to listen on the port defiend by our port variable
 app.listen(port, () => console.log(`BACK_END_SERVICE_PORT: ${port}`));

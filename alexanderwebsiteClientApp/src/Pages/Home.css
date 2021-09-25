@@ -1,17 +1,37 @@
 .background {
     height: 100vh;
-    background-image: url("../images/brycenational.jpeg");
+    background-image: url("../images/mobileBackground.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     font-size:1rem;
     flex-direction: column;
+    text-align: center;
+    padding-top: 40%;
 }
-.testButton {
+
+
+@media (min-width: 768px) {
+    .background {
+        height: 100vh;
+        background-image: url("../images/brycenational.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size:1rem;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+}
+
+.aboutButton {
     color: #060b26 !important;
 	/* text-transform: uppercase; */
 	background: #ffffff;
@@ -26,7 +46,7 @@
    
 
 }
-.testButton:hover {
+.aboutButton:hover {
     color: #060b26 !important;
 	background: #A9A9A9;
 	border-color: #060b26 !important;
@@ -34,11 +54,12 @@
     cursor: pointer;
 
 }
-.testButton:disabled {
+.aboutButton:disabled {
     cursor: default;
     opacity: 0.7;
 }
 .home {
+    
     /* display: flex;
     
     align-items: center;

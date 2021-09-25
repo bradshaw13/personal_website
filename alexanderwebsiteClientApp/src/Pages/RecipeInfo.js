@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { useState } from 'react';
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import RECIPES from '../Data/recipes.json';
 import './RecipeInfo.css';
 
@@ -20,8 +20,16 @@ function RecipeInfo() {
         <div className="test">
              <div className='recipeInfo'>
             <h1>{recipeInfo.name}</h1>
-            <h4 className="origin">Recipe Origin: {recipeInfo.origin}</h4>
+            <h4 className="origin">Recipe Origin:&nbsp;   
+                <Link className="recipeInfoLink" to={{pathname: '/venganacomer/'}}>
+                       Vengan A Comer
+                </Link></h4>
             <h2>Ingredients</h2>
+            <h5><Link className="recipeInfoLink" to={{pathname: '/recipes/'}}>
+                    Explore more recipes
+                </Link>
+            </h5>
+          
             <div className="content">
                 
                 <ul className="ingredients">

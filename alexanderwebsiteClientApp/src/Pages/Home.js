@@ -13,7 +13,7 @@ function Home() {
                 </div>
               
                 <div className='home'>
-                    <button onClick={() => history.push('/aboutme')} className='testButton'>
+                    <button onClick={() => history.push('/aboutme')} className='aboutButton'>
                         About Me
                     </button>
                 </div>
