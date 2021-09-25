@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.037c0193.chunk.css",
-    "main.js": "/static/js/main.c7827778.chunk.js",
-    "main.js.map": "/static/js/main.c7827778.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.44eef696.js",
-    "runtime-main.js.map": "/static/js/runtime-main.44eef696.js.map",
+    "main.css": "/static/css/main.3e8537c0.chunk.css",
+    "main.js": "/static/js/main.cc7382d6.chunk.js",
+    "main.js.map": "/static/js/main.cc7382d6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.33ecf7a5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.33ecf7a5.js.map",
     "static/css/2.9345dda6.chunk.css": "/static/css/2.9345dda6.chunk.css",
-    "static/js/2.c522ca36.chunk.js": "/static/js/2.c522ca36.chunk.js",
-    "static/js/2.c522ca36.chunk.js.map": "/static/js/2.c522ca36.chunk.js.map",
-    "static/js/3.abfe3467.chunk.js": "/static/js/3.abfe3467.chunk.js",
-    "static/js/3.abfe3467.chunk.js.map": "/static/js/3.abfe3467.chunk.js.map",
+    "static/js/2.a9760291.chunk.js": "/static/js/2.a9760291.chunk.js",
+    "static/js/2.a9760291.chunk.js.map": "/static/js/2.a9760291.chunk.js.map",
+    "static/js/3.02df779f.chunk.js": "/static/js/3.02df779f.chunk.js",
+    "static/js/3.02df779f.chunk.js.map": "/static/js/3.02df779f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.9345dda6.chunk.css.map": "/static/css/2.9345dda6.chunk.css.map",
-    "static/css/main.037c0193.chunk.css.map": "/static/css/main.037c0193.chunk.css.map",
-    "static/js/2.c522ca36.chunk.js.LICENSE.txt": "/static/js/2.c522ca36.chunk.js.LICENSE.txt",
+    "static/css/main.3e8537c0.chunk.css.map": "/static/css/main.3e8537c0.chunk.css.map",
+    "static/js/2.a9760291.chunk.js.LICENSE.txt": "/static/js/2.a9760291.chunk.js.LICENSE.txt",
     "static/js/mapbox-gl-csp-worker.45ed6588.worker.js": "/static/js/mapbox-gl-csp-worker.45ed6588.worker.js",
     "static/js/mapbox-gl-csp-worker.45ed6588.worker.js.map": "/static/js/mapbox-gl-csp-worker.45ed6588.worker.js.map",
     "static/media/AstrosALCS.baa4b4ec.JPG": "/static/media/AstrosALCS.baa4b4ec.JPG",
-    "static/media/Home.css": "/static/media/brycenational.c0fcba2d.jpeg"
+    "static/media/Home.css": "/static/media/mobileBackground.bb602570.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.44eef696.js",
+    "static/js/runtime-main.33ecf7a5.js",
     "static/css/2.9345dda6.chunk.css",
-    "static/js/2.c522ca36.chunk.js",
-    "static/css/main.037c0193.chunk.css",
-    "static/js/main.c7827778.chunk.js"
+    "static/js/2.a9760291.chunk.js",
+    "static/css/main.3e8537c0.chunk.css",
+    "static/js/main.cc7382d6.chunk.js"
   ]
 }
