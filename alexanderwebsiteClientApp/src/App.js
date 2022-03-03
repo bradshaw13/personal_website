@@ -1,7 +1,7 @@
 import './App.css';
 import * as React from 'react';
 import Navbar from './Components/Navbar';
-import {BrowserRouter as Router,Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Recipes from './Pages/Recipes';
 import Travel from './Pages/Travel';
@@ -12,27 +12,27 @@ import AboutMe from './Pages/AboutMe';
 import VenganAComer from './Pages/VenganAComer';
 
 function App() {
-  
+
   return (
     <>
-    <Router>
-      <Navbar/>
-      <Switch>
-        <Route path='/' exact component={Home}/>
-        <Route path='/recipes' exact component={Recipes}/>
-        <Route path='/recipes/:recipeName' exact component={RecipeInfo}/>
-        <Route path='/portfolio' exact component={Portfolio}/>
-        <Route path='/travel' exact component={Travel}/>
-        <Route path='/travel/:city' exact component={TravelByCity}/>
-        <Route path='/aboutme' exact component={AboutMe}/>
-        <Route path='/venganacomer' exact component={VenganAComer}/>
-        
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/recipes' exact component={Recipes} />
+          <Route path='/recipes/:recipeName' exact component={RecipeInfo} />
+          <Route path='/portfolio' exact component={Portfolio} />
+          <Route path='/travel' exact component={Travel} />
+          <Route path='/travel/:city' exact component={TravelByCity} />
+          <Route path='/aboutme' exact component={AboutMe} />
+          <Route path='/venganacomer' exact component={VenganAComer} />
 
-      </Switch>
-    </Router>
-      
+
+        </Switch>
+      </Router>
+
     </>
-    
+
   );
 }
 
